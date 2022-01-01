@@ -68,6 +68,11 @@
   .what-we-do .headings{
     padding-bottom: 38px;
   }
+  #mouse-click{
+    padding-top: 22px;
+    margin-top:10%;
+    padding-bottom: 30px;
+  }
 
   /*Portfolio*/
 #portfolio{
@@ -98,10 +103,7 @@
     font-size: 20px;
     font-weight: 600;
   }
-  #mouse-click{
-      padding-top: 22px;
-      margin-top:10%;
-      padding-bottom: 30px;
-    }
+  
+   
 
 
