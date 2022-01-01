@@ -29,6 +29,8 @@ Reset form   |	User clicks the reset button                      |	Form input fi
 1. HTML
 2. CSS
 3. Javascript
+4. jQuery
+5. Bootstrap
 ### Live Site
 View [Live] https://venus-kavunza.github.io/Delani-Studio/
 ### Contact
