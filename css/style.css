@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto',sans-serif;
+}
+/*Logo*/
+.logo {
+    text-align: center;
+    background-image: url(../images/h_img.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: auto;
+    height: 800px;
+}
+.logoimage {
+    padding-top: 280px;
+}
+.logotext {
+    color: white;
+    padding-top: 20px;
+}
+.break {
+    color: white;
+    padding-top: 35px;
+}
+.logopoint {
+    color: white;
+    font-weight: bold;
+} 
+.mouseimage {
+    padding-top: 170px;
+}
