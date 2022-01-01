@@ -104,6 +104,58 @@
     font-weight: 600;
   }
   
-   
+    /*Contact us*/
+.contact{
+    background-image: url(../images/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+  }
+  .contact h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  input[type=text],input[type=email],#mce-MMERGE6{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+  }
+  .form-control::-webkit-input-placeholder{
+    color: #fff;
+  }
+  #black1,#ontario,#brown,#black2,#black5,#black6,#black7,#black8{
+    display: none;
+    color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(245, 238, 238);
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50%;
+  }
+  #mce-FNAME{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+  }
+  #mce-EMAIL{
+    width: 30%;
+  }
+  #mce-MMERGE6{
+    margin-left: 20%;
+    width: 60%;
+  }
+  button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
 
 
