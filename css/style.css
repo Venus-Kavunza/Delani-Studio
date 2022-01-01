@@ -69,4 +69,39 @@
     padding-bottom: 38px;
   }
 
+  /*Portfolio*/
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 16%;
+  }
+  .col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .portfolio h2{
+    text-align: center;
+    padding-top: 40px;
+  }
+  #product, #development, #design{
+    display: none;
+    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .title{
+    padding: 6px;
+  }
+  #product .title, #development .title, #design ,title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #mouse-click{
+      padding-top: 22px;
+      margin-top:10%;
+      padding-bottom: 30px;
+    }
+
 
