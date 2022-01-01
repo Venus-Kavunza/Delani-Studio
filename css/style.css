@@ -28,3 +28,17 @@
 .mouseimage {
     padding-top: 170px;
 }
+/*About us*/
+.aboutus {
+    text-align: center;
+    padding-top: 40px;
+}
+.about {
+    font-weight: bolder;
+}
+.text {
+    font-weight: bolder;
+}
+#text {
+    font-weight: bold;
+}
