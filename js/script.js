@@ -1,3 +1,55 @@
+//This function shows text and hides text when clicked on//
+$(document).ready(function(){
+    $("#design").onclick(function(){
+      $("#img-design").show();
+    }).click(function(){
+      $("#img-design").hide();
+    });
+  })
+  $(document).ready(function(){
+    $("#img-design").click(function(){
+      $("#img-design").hide('1000');
+      $("#design").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").hide('1500');
+      $("#img-design").show('1500');
+    });
+  });
+  $(document).ready(function(){
+    $("#img-development").click(function(){
+      $("#img-development").hide('1000');
+      $("#development").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").hide('1500');
+      $("#img-development").show('1500');
+    });
+  });
+  $(document).ready(function(){
+    $("#img-product").click(function(){
+      $("#img-product").hide('1000');
+      $("#product").show('1500');
+    });
+    $("#product").click(function(){
+      $("#product").hide('1500');
+      $("#img-product").show('1500');
+    });
+  });
+  $(document).ready(function() {
+    $("#mc-embedded-subscribe").click(function() {
+      var name = $("input#mce-FNAME").val();
+      var email = $("input#mce-EMAIL").val();
+      var message = $("input#mce-MMERGE6").val();
+      if ($("input#mce-FNAME").val() && $("input#mce-EMAIL").val()){
+        alert (name + ", your message has been received successfully. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!")
+      }
+    });
+  });
+
 //This creates a hover function when moving around the image with the mouse//
 $(document).ready(function(){
     $("#work1").mouseover(function(){
@@ -55,3 +107,5 @@ $(document).ready(function(){
       $("#black8").hide();
     });
   })
+
+  
