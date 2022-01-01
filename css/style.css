@@ -59,3 +59,14 @@
 .paragraph {
     font-weight:bolder ;
 }
+
+/*What we do*/
+.what-we-do{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .what-we-do .headings{
+    padding-bottom: 38px;
+  }
+
+
